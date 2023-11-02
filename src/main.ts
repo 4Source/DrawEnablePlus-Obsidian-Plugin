@@ -8,7 +8,7 @@ const DEFAULT_SETTINGS: DrawEnablePlusPluginSettings = {
 	settingsNumb1: 'default'
 }
 
-export default class DrawEnablePlus extends Plugin {
+export default class DrawEnablePlusPlugin extends Plugin {
 	settings: DrawEnablePlusPluginSettings;
 	inputType: string;
 	editMode: string;
